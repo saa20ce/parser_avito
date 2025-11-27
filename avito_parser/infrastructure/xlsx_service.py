@@ -3,7 +3,7 @@ from openpyxl import Workbook, load_workbook
 from threading import Lock
 from datetime import datetime
 from tzlocal import get_localzone
-from models import Item
+from avito_parser.core.models import Item
 
 
 class XLSXHandler:

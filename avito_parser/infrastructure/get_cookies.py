@@ -6,8 +6,8 @@ from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
 from typing import Optional, Dict, List
 
-from dto import Proxy, ProxySplit
-from playwright_setup import ensure_playwright_installed
+from avito_parser.core.dto import Proxy, ProxySplit
+from avito_parser.infrastructure.playwright_setup import ensure_playwright_installed
 
 MAX_RETRIES = 3
 RETRY_DELAY = 10

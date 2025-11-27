@@ -3,7 +3,7 @@ import time
 
 from loguru import logger
 
-from models import Item
+from avito_parser.core.models import Item
 
 
 class SendAdToTg:
@@ -54,7 +54,7 @@ class SendAdToTg:
         message = (
                 f"*{ad.priceDetailed.value}*" + ("🢁" if ad.isPromotion else "")
                 + f"\n[{ad.title}]({full_url})\n{short_url}\n"
-                + (f"Продавец: {ad.sellerId}\n" if ad.sellerId else "")
+                # + (f"Продавец: {ad.sellerId}\n" if ad.sellerId else "")
 
         )
         return message

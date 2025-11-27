@@ -1,0 +1,26 @@
+[avito]
+tg_token = ""
+tg_chat_id = [
+    "",
+]
+urls = [
+    "https://www.avito.ru/moskva/telefony/mobilnye_telefony/apple/iphone_17-ASgBAgICA0SywA2yhrQVtMANzqs5sMENiPw3?cd=1&s=104",
+]
+count = 1
+keys_word_white_list = []
+keys_word_black_list = []
+seller_black_list = []
+max_price = 9999999999
+min_price = 1000
+geo = ""
+proxy_string = ""
+proxy_change_url = ""
+pause_general = 60
+pause_between_links = 5
+max_age = 0
+max_count_of_retry = 5
+ignore_reserv = false
+ignore_promotion = false
+one_time_start = false
+one_file_for_link = false
+save_xlsx = true

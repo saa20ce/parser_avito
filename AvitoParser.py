@@ -6,10 +6,10 @@ import flet as ft
 import tkinter as tk
 from loguru import logger
 
-from lang import *
-from load_config import save_avito_config, load_avito_config
-from parser_cls import AvitoParse
-from tg_sender import SendAdToTg
+from avito_parser.ui.lang import *
+from avito_parser.application.config_loader import save_avito_config, load_avito_config
+from avito_parser.application.parser_cls import AvitoParse
+from avito_parser.infrastructure.tg_sender import SendAdToTg
 from version import VERSION
 
 

@@ -1,6 +1,6 @@
 import sqlite3
 
-from models import Item
+from avito_parser.core.models import Item
 
 
 class SQLiteDBHandler:
