@@ -1,2 +1,9 @@
 # created by virtualenv automatically
 .secret.txt
+/venv
+/__pycache__
+/logs
+/result
+database.db
+cookies.json
+config.toml
